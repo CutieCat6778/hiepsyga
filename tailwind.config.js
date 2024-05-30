@@ -7,6 +7,9 @@ export default {
         background: "#FFC8D7",
         primary: "#001122",
       },
+      fontFamily: {
+        serif: ["Cactus Classical Serif"]
+      }
     },
   },
   plugins: [],

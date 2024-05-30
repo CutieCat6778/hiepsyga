@@ -1,0 +1,26 @@
+{
+    "loading": "Loading...",
+    "title": {
+        "title": "Hiệp sĩ gà",
+        "subtitle": "charity"
+    },
+    "navigation": {
+        "about": "Chúng tôi",
+        "contact": "Liên hệ",
+        "join": "Tham Gia"
+    },
+    "landing": {
+        "hero": {
+            "title": "Hãy tham gia với chúng tôi!",
+            "subtitle": "Với sứ mệnh trao quyền cho thanh niên trở thành những “hiệp sĩ” năng động, có trách nhiệm, đồng thời giải quyết thách thức bằng sự sáng tạo và tận tâm."
+        },
+        "about": {
+            "title": "Hiệp sĩ gà, chúng tôi mang đến hy vọng!",
+            "content1": "\"Hiệp sĩ Gà\" là một nhóm tình nguyện sôi nổi, tận dụng năng lượng và nhiệt huyết của tuổi trẻ để tạo ra tác động tích cực trong cộng đồng. Mục đích chung của nhóm là thu hút các tình nguyện viên trẻ tham gia vào nhiều hoạt động, từ dọn dẹp môi trường và tổ chức các buổi hội thảo giáo dục đến hỗ trợ các tổ chức từ thiện địa phương và tổ chức các sự kiện cộng đồng. Sứ mệnh của nhóm là trao quyền cho thanh niên trở thành những “hiệp sĩ” năng động, có trách nhiệm, đồng thời giải quyết thách thức bằng sự sáng tạo và tận tâm. Thông qua tinh thần đồng đội và tầm nhìn chung, Hiệp sĩ Gà nỗ lực tạo ra một xã hội tốt đẹp hơn và đầy tình thương cho tất cả mọi người.",
+            "content2": "Rất nhiều người tốt làm những việc thiện và trao đi sự tích cực đến cộng đồng. Nhiều người còn xung phong chung tay chống dịch, chống đói, hoặc từ thiện xã hội mà không cần trang bị cho mình bộ áo giáp hay phi ngựa đến địa điểm nhất định. Bạn có nghĩ họ có xứng đáng với danh hiệu hiệp sĩ? Chỉ cần có phẩm chất, ý chí tinh thần, và đạo đức cao để giúp đỡ và làm việc thiện, đó mới được coi là sự cao quý và lòng dũng cảm trong con người. Và đó mới chính là định nghĩa đúng của một người hiệp sĩ."
+        }
+    },
+    "footer": {
+        "title": "Kết nối với chúng tôi!"
+    }
+}

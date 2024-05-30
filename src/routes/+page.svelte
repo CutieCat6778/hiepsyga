@@ -1,16 +1,18 @@
-<main class="h-screen w-screen">
-    <header class="flex justify-center items-center flex-col h-full w-full">
+<script>
+    import { _ } from "$lib/i18n";
+</script>
+
+<main class="h-auto w-full">
+    <header class="flex justify-center items-center flex-col h-screen w-full">
         <h1
-            class="text-4xl mx-1 font-bold font-sans md:text-left text-center sm:text-5xl md:text-6xl"
+            class="text-4xl mx-1 font-bold font-sans lg:text-left text-center sm:text-5xl md:text-6xl"
         >
-            Hãy tham gia với chúng tôi!
+            {$_("landing.hero.title")}
         </h1>
         <h3
-            class="mt-5 text-xl md:text-[1.4rem] font-light font-serif md:max-w-[70%] max-w-[98%] text-center"
+            class="mt-5 text-xl md:text-[1.4rem] font-semibold font-serif md:max-w-[70%] max-w-[98%] text-center"
         >
-            Với sứ mệnh trao quyền cho thanh niên trở thành những “hiệp sĩ” năng
-            động, có trách nhiệm, đồng thời giải quyết thách thức bằng sự sáng
-            tạo và tận tâm.
+            {$_("landing.hero.subtitle")}
         </h3>
         <a
             href="https://docs.google.com/forms/d/e/1FAIpQLSff47cNt3l5i-8qfiaxC3I6npp_oxN27r6alL_T-J6csBz7KQ/viewform?usp=send_form"
@@ -18,66 +20,25 @@
             >Đăng ký</a
         >
     </header>
-    <section class="w-screen h-auto">
-        <div class="min-h-screen w-full flex">
+    <section class="w-full lg:h-screen border-[0.3vw] border-black">
+        <div class="max-h-screen w-full flex">
             <img
                 src="https://images.unsplash.com/photo-1695003834079-f9ca8d25ca9a?w=800&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MjZ8fGNoaWxkcmVuJTIwdmlldG5hbXxlbnwwfDF8MHx8fDA%3D"
                 alt="vietnam 1"
-                class="min-w-[50%] h-screen object-cover hidden lg:block"
+                class="min-w-[50%] h-[99.4vh] object-cover hidden lg:block"
             />
             <div
                 id="about"
                 class="lg:w-[50%] w-full flex flex-col justify-start items-center md:py-20 md:px-10 p-4 py-8 font-serif bg-primary text-white/[0.9]"
             >
                 <h1 class="text-4xl font-bold uppercase font-mono">
-                    Hiệp sĩ gà, chúng tôi mang đến niềm tin!
+                    {$_("landing.about.title")}
                 </h1>
-                <p class="mt-5">
-                    "Hiệp sĩ Gà" là một nhóm tình nguyện sôi nổi, tận dụng năng
-                    lượng và nhiệt huyết của tuổi trẻ để tạo ra tác động tích
-                    cực trong cộng đồng. Mục đích chung của nhóm là thu hút các
-                    tình nguyện viên trẻ tham gia vào nhiều hoạt động, từ dọn
-                    dẹp môi trường và tổ chức các buổi hội thảo giáo dục đến hỗ
-                    trợ các tổ chức từ thiện địa phương và tổ chức các sự kiện
-                    cộng đồng. Sứ mệnh của nhóm là trao quyền cho thanh niên trở
-                    thành những “hiệp sĩ” năng động, có trách nhiệm, đồng thời
-                    giải quyết thách thức bằng sự sáng tạo và tận tâm. Thông qua
-                    tinh thần đồng đội và tầm nhìn chung, Hiệp sĩ Gà nỗ lực tạo
-                    ra một xã hội tốt đẹp hơn và đầy tình thương cho tất cả mọi
-                    người.
+                <p class="mt-5 lg:text-[1.2vw] text-[2.3vw]">
+                    {$_("landing.about.content1")}
                     <br /><br />
-                    Rất nhiều người tốt làm những việc thiện và trao đi sự tích cực
-                    đến cộng đồng. Nhiều người còn xung phong chung tay chống dịch,
-                    chống đói, hoặc từ thiện xã hội mà không cần trang bị cho mình
-                    bộ áo giáp hay phi ngựa đến địa điểm nhất định. Bạn có nghĩ họ
-                    có xứng đáng với danh hiệu hiệp sĩ? Chỉ cần có phẩm chất, ý chí
-                    tinh thần, và đạo đức cao để giúp đỡ và làm việc thiện, đó mới
-                    được coi là sự cao quý và lòng dũng cảm trong con người. Và đó
-                    mới chính là định nghĩa đúng của một người hiệp sĩ.
+                    {$_("landing.about.content2")}
                 </p>
-            </div>
-        </div>
-        <div
-            id="contact"
-            class="min-h-screen w-full flex flex-col justify-center items-center"
-        >
-            <h1
-                class="text-4xl font-bold font-sans md:text-left text-center sm:text-5xl md:text-6xl"
-            >
-                Hãy kết nối với chúng tôi!
-            </h1>
-            <div class="mt-10 flex justify-center items-center">
-                <div>
-                    <a
-                        class="text-center font-bold"
-                        href="mailto:vanessagaming007@gmail.com"
-                        >venessagaming007@gmail.com</a
-                    >
-                    <h4 class="text-center mt-4 font-bold">
-                        0973162404 Bùi Tuấn Vũ
-                    </h4>
-                </div>
-                <img class="ml-5 max-w-[33%]" src="/qrcode.png" alt="qrcode" />
             </div>
         </div>
     </section>
