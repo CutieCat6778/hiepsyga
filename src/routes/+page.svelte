@@ -1,12 +1,12 @@
 <main class="h-screen w-screen">
     <header class="flex justify-center items-center flex-col h-full w-full">
         <h1
-            class="text-4xl font-bold font-sans md:text-left text-center sm:text-5xl md:text-6xl"
+            class="text-4xl mx-1 font-bold font-sans md:text-left text-center sm:text-5xl md:text-6xl"
         >
             Hãy tham gia với chúng tôi!
         </h1>
         <h3
-            class="mt-5 text-xl md:text-[1.4rem] font-light font-serif md:max-w-[70%] max-w-[90%] text-center"
+            class="mt-5 text-xl md:text-[1.4rem] font-light font-serif md:max-w-[70%] max-w-[98%] text-center"
         >
             Với sứ mệnh trao quyền cho thanh niên trở thành những “hiệp sĩ” năng
             động, có trách nhiệm, đồng thời giải quyết thách thức bằng sự sáng
@@ -27,7 +27,7 @@
             />
             <div
                 id="about"
-                class="lg:w-[50%] w-full flex flex-col justify-start items-center py-20 px-10 font-serif bg-primary text-white/[0.9]"
+                class="lg:w-[50%] w-full flex flex-col justify-start items-center md:py-20 md:px-10 p-4 py-8 font-serif bg-primary text-white/[0.9]"
             >
                 <h1 class="text-4xl font-bold uppercase font-mono">
                     Hiệp sĩ gà, chúng tôi mang đến niềm tin!
@@ -66,16 +66,16 @@
             >
                 Hãy kết nối với chúng tôi!
             </h1>
-            <div class="flex mt-10">
-                <div class="max-w-[50vw]">
-                    <a href="mailto:vanessagaming007@gmail.com"
-                        >E-Mail: venessagaming007@gmail.com</a
-                    >
-                    <h4>Whatsapp: 0973 162 404 Bùi Tuấn Vũ</h4>
-                </div>
-                <div class="max-w-[50vw]">
-                    <img src="/qrcode.svg" alt="qrcode" />
-                </div>
+            <div class="mt-10">
+                <a
+                    class="text-center font-bold"
+                    href="mailto:vanessagaming007@gmail.com"
+                    >venessagaming007@gmail.com</a
+                >
+                <h4 class="text-center mt-4 font-bold">
+                    0973162404 Bùi Tuấn Vũ
+                </h4>
+                <img src="/qrcode.svg" alt="qrcode" />
             </div>
         </div>
     </section>
