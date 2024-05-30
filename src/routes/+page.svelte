@@ -66,16 +66,18 @@
             >
                 Hãy kết nối với chúng tôi!
             </h1>
-            <div class="mt-10">
-                <a
-                    class="text-center font-bold"
-                    href="mailto:vanessagaming007@gmail.com"
-                    >venessagaming007@gmail.com</a
-                >
-                <h4 class="text-center mt-4 font-bold">
-                    0973162404 Bùi Tuấn Vũ
-                </h4>
-                <img src="/qrcode.svg" alt="qrcode" />
+            <div class="mt-10 flex justify-center items-center">
+                <div>
+                    <a
+                        class="text-center font-bold"
+                        href="mailto:vanessagaming007@gmail.com"
+                        >venessagaming007@gmail.com</a
+                    >
+                    <h4 class="text-center mt-4 font-bold">
+                        0973162404 Bùi Tuấn Vũ
+                    </h4>
+                </div>
+                <img class="ml-5 max-w-[33%]" src="/qrcode.png" alt="qrcode" />
             </div>
         </div>
     </section>
