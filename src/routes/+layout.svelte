@@ -8,9 +8,11 @@
         isLocaleLoaded,
         changeLocale,
         json,
+        locale
     } from "$lib/i18n";
     import DropdownMenu from "$lib/components/DropdownMenu.svelte";
     import { turnOffNav } from "$lib";
+    import LanguageSwitch from "$lib/components/LanguageSwitch.svelte";
 
     let lastScrollY = 0;
     let navVisible = true;
@@ -64,7 +66,7 @@
 
 {#if $about.length > 0}
     <nav
-        class="fixed w-full bg-background bg-opacity-95 shadow-md h-[7vh] flex items-center justify-center max-h-[7vh]"
+        class="fixed w-full bg-background shadow-md h-[7vh] flex items-center justify-center max-h-[7vh]"
         class:hidden={!navVisible || $turnOffNav}
     >
         <ul class="flex justify-around items-center w-full my-3 text-[1.2vw]">
@@ -78,7 +80,9 @@
                     >{$_("title.subtitle")}</span
                 >
             </a>
-            <a href="/#about" class="font-semibold uppercase md:block hidden">{$json("navigation.about.0")}</a>
+            <a href="/#about" class="font-semibold uppercase md:block hidden"
+                >{$json("navigation.about.0")}</a
+            >
             <a href="/projects" class="font-semibold uppercase md:block hidden"
                 >{$_("navigation.about.1")}</a
             >
@@ -90,18 +94,15 @@
                 id={$story[0]}
                 options={$story}
             />
-            <DropdownMenu
-                options={["English", "Tiếng Việt"]}
-                id="Language"
-                style="max-w-[8vw] font-[1vw] bg-black/[0]"
-                on:selection={(e) => {
+            <LanguageSwitch
+                value={$locale}
+                on:locale-changed={(e) => {
                     console.log(e);
-                    changeLocale(e.detail.value == "English" ? "en" : "vi");
+                    changeLocale(e.detail);
                 }}
             />
         </ul>
     </nav>
-
     <slot />
     <footer
         id="contact"
@@ -121,7 +122,7 @@
     </footer>
     <img
         class="-z-10 select-none w-full h-screen fixed top-0 bottom-0 left-0 right-0"
-        src="background.png"
+        src="background_old.png"
         alt="Background"
     />
     <img

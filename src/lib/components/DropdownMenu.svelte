@@ -19,4 +19,4 @@
 
 </script>
 
-<Svelecte {options} class={`${style}`} value={options[0]} inputId={id}  on:change={handleSelectionChange} placeholder={id} i18n={languagePack[_activeLocale]}/>
+<Svelecte {options} searchable={false} clearable={false} class={`${style}`} value={options[0]} inputId={id}  on:change={handleSelectionChange} placeholder={id} i18n={languagePack[_activeLocale]}/>
