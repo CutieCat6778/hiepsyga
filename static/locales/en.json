@@ -2,17 +2,18 @@
     "loading": "Loading...",
     "title": {
         "title": "Noob Knights",
-        "subtitle": "charity"
+        "subtitle": "group"
     },
     "navigation": {
-        "about": "About Us",
+        "about": ["About Us"],
         "contact": "Contact",
         "join": "Join Us"
     },
     "landing": {
         "hero": {
             "title": "Join us to change the future!",
-            "subtitle": "We empower youth to become dynamic, responsible \"knights\" who address challenges with creativity, dedication and a commitment to excellence. Prepare them to lead and inspire positive change in the world."
+            "subtitle": "We empower youth to become dynamic, responsible \"knights\" who address challenges with creativity, dedication and a commitment to excellence. Prepare them to lead and inspire positive change in the world.",
+            "button": "Register"
         },
         "about": {
             "title": "Noob Knights, We Bring Hopes!",

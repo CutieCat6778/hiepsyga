@@ -2,17 +2,18 @@
     "loading": "Loading...",
     "title": {
         "title": "Hiệp sĩ gà",
-        "subtitle": "charity"
+        "subtitle": "group"
     },
     "navigation": {
-        "about": "Chúng tôi",
-        "contact": "Liên hệ",
+        "about": ["Chúng tôi", "Dự Án", "Thuyết Trình"],
+        "story": ["Câu Chuyện"],
         "join": "Tham Gia"
     },
     "landing": {
         "hero": {
             "title": "Hãy tham gia với chúng tôi!",
-            "subtitle": "Với sứ mệnh trao quyền cho thanh niên trở thành những “hiệp sĩ” năng động, có trách nhiệm, đồng thời giải quyết thách thức bằng sự sáng tạo và tận tâm."
+            "subtitle": "Với sứ mệnh trao quyền cho thanh niên trở thành những “hiệp sĩ” năng động, có trách nhiệm, đồng thời giải quyết thách thức bằng sự sáng tạo và tận tâm.",
+            "button": "Đăng ký"
         },
         "about": {
             "title": "Hiệp sĩ gà, chúng tôi mang đến hy vọng!",
@@ -22,5 +23,15 @@
     },
     "footer": {
         "title": "Kết nối với chúng tôi!"
+    },
+    "dropdown": {
+        "empty": "Hãy lựa chọn",
+        "nomatch": "Không tìm thấy kết quả",
+        "max": "Đã đạt giới hạn số lượng",
+        "fetchBefore": "Viết để tìm kiếm",
+        "fetchQuery": "Bạn cần ít nhất XXX ký tự để tìm kiếm",
+        "fetchEmpty": "Không có kết quả",
+        "collapsedSelection": "XXX đã chọn",
+        "createRowLabel": "Đã tạo XXX"
     }
 }

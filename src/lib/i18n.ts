@@ -1,5 +1,5 @@
 import { get, derived, writable } from 'svelte/store';
-import { addMessages, locale, init, dictionary, _, getLocaleFromNavigator } from 'svelte-i18n';
+import { addMessages, locale, init, dictionary, _, getLocaleFromNavigator, json } from 'svelte-i18n';
 import { onMount } from 'svelte';
 
 const MESSAGE_FILE_URL_TEMPLATE = '/locales/{locale}.json';
@@ -8,7 +8,7 @@ interface I18nOptions {
 	withLocale: string;
 }
 
-let _activeLocale: string;
+let _activeLocale: "en" | "vi";
 
 const isDownloading = writable(false);
 
@@ -26,12 +26,11 @@ async function setupI18n(options: I18nOptions): Promise<void> {
 			try {
 				const messages = await loadJson<Record<string, string>>(messagesFileUrl);
 				addMessages(locale_, messages);
-				_activeLocale = locale_;
+				_activeLocale = locale_ == "en" ? "en" : "vi";
 				locale.set(locale_);
+				isDownloading.set(false);
 			} catch (error) {
 				console.error('Failed to load translations:', error);
-			} finally {
-				isDownloading.set(false);
 			}
 		});
 	}
@@ -46,13 +45,12 @@ function changeLocale(locale_: string): void {
 		try {
 			loadJson<Record<string, string>>(messagesFileUrl).then(messages => {
 				addMessages(locale_, messages);
-				_activeLocale = locale_;
+				_activeLocale = locale_ == "en" ? "en" : "vi";
 				locale.set(locale_);
+				isDownloading.set(false);
 			})
 		} catch (error) {
 			console.error('Failed to load translations:', error);
-		} finally {
-			isDownloading.set(false);
 		}
 		return;
 	}
@@ -65,7 +63,7 @@ const isLocaleLoaded = derived(
 	([$isDownloading, $dictionary]) =>
 		!$isDownloading &&
 		$dictionary[_activeLocale] &&
-		Object.keys($dictionary[_activeLocale]).length > 0
+		Object.keys($dictionary[_activeLocale]).length > 0,
 );
 
 async function loadJson<T>(url: string): Promise<T> {
@@ -80,4 +78,4 @@ function hasLoadedLocale(locale: string): boolean {
 	return !!get(dictionary)[locale];
 }
 
-export { _, setupI18n, isLocaleLoaded, locale, changeLocale };
+export { _, setupI18n, isLocaleLoaded, locale, changeLocale, _activeLocale, json };

@@ -17,7 +17,7 @@
         <a
             href="https://docs.google.com/forms/d/e/1FAIpQLSff47cNt3l5i-8qfiaxC3I6npp_oxN27r6alL_T-J6csBz7KQ/viewform?usp=send_form"
             class="uppercase px-10 mt-7 rounded-xl bg-primary font-bold py-3 text-white/[0.9]"
-            >Đăng ký</a
+            >{$_("landing.hero.button")}</a
         >
     </header>
     <section class="w-full lg:h-screen border-[0.3vw] border-black">

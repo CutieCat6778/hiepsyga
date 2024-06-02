@@ -7,3 +7,43 @@
         @apply bg-primary text-primary font-sans;
     }
 }
+
+@layer components {
+	.svelecte {
+	  --sv-min-height: 40px;
+	  --sv-bg: #32363f00;
+	  --sv-disabled-bg: #eeeeee00;
+	  --sv-border: 0px solid #626262;
+	  --sv-border-radius: 4px;
+	  --sv-general-padding: 4px;
+	  --sv-control-bg: var(--sv-bg);
+	  --sv-item-wrap-padding: 3px 3px 3px 6px;
+	  --sv-item-selected-bg: #62626200;
+	  --sv-item-btn-color: #001122;
+	  --sv-item-btn-color-hover: #001122;
+	  --sv-item-btn-bg: #62626200;
+	  --sv-item-btn-bg-hover: #bc606300;
+	  --sv-icon-color: #001122;
+	  --sv-icon-color-hover: #001122;
+	  --sv-icon-bg: transparent;
+	  --sv-icon-size: 20px;
+	  --sv-separator-bg: #62626200;
+	  --sv-btn-border: 0;
+	  --sv-placeholder-color: #001122;
+	  --sv-dropdown-bg: var(--sv-bg);
+	  --sv-dropdown-border: var(--sv-border);
+	  --sv-dropdown-offset: 1px;
+	  --sv-dropdown-width: auto;
+	  --sv-dropdown-shadow: 0 1px 3px #555;
+	  --sv-dropdown-height: 320px;
+	  --sv-dropdown-active-bg: #553d3d00;
+	  --sv-dropdown-selected-bg: #75454500;
+	  --sv-create-kbd-border: 1px solid #62626200;
+	  --sv-create-kbd-bg: #62626200;
+	  --sv-create-disabled-bg: #fcbaba00;
+	  --sv-loader-border: 2px solid #62626200;
+    }
+    .sv-input--text {
+        @apply text-primary;
+    }
+}
