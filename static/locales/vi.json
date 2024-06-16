@@ -1,37 +1,38 @@
 {
-    "loading": "Loading...",
-    "title": {
-        "title": "Hiệp sĩ gà",
-        "subtitle": "group"
+  "loading": "Loading...",
+  "title": {
+    "title": "Hiệp sĩ gà",
+    "subtitle": "group"
+  },
+  "notfound": "Trang này không tồn tại!",
+  "navigation": {
+    "about": ["Chúng tôi", "Dự Án", "Thuyết Trình"],
+    "storyTitle": "Thông Tin",
+    "story": ["Câu Chuyện"],
+    "join": "Tham Gia"
+  },
+  "landing": {
+    "hero": {
+      "title": "Hãy tham gia với chúng tôi!",
+      "subtitle": "Với sứ mệnh trao quyền cho thanh niên trở thành những “hiệp sĩ” năng động, có trách nhiệm, đồng thời giải quyết thách thức bằng sự sáng tạo và tận tâm.",
+      "button": "Đăng ký"
     },
-    "navigation": {
-        "about": ["Chúng tôi", "Dự Án", "Thuyết Trình"],
-        "story": ["Câu Chuyện"],
-        "join": "Tham Gia"
-    },
-    "landing": {
-        "hero": {
-            "title": "Hãy tham gia với chúng tôi!",
-            "subtitle": "Với sứ mệnh trao quyền cho thanh niên trở thành những “hiệp sĩ” năng động, có trách nhiệm, đồng thời giải quyết thách thức bằng sự sáng tạo và tận tâm.",
-            "button": "Đăng ký"
-        },
-        "about": {
-            "title": "Hiệp sĩ gà, chúng tôi mang đến hy vọng!",
-            "content1": "\"Hiệp sĩ Gà\" là một nhóm tình nguyện sôi nổi, tận dụng năng lượng và nhiệt huyết của tuổi trẻ để tạo ra tác động tích cực trong cộng đồng. Mục đích chung của nhóm là thu hút các tình nguyện viên trẻ tham gia vào nhiều hoạt động, từ dọn dẹp môi trường và tổ chức các buổi hội thảo giáo dục đến hỗ trợ các tổ chức từ thiện địa phương và tổ chức các sự kiện cộng đồng. Sứ mệnh của nhóm là trao quyền cho thanh niên trở thành những “hiệp sĩ” năng động, có trách nhiệm, đồng thời giải quyết thách thức bằng sự sáng tạo và tận tâm. Thông qua tinh thần đồng đội và tầm nhìn chung, Hiệp sĩ Gà nỗ lực tạo ra một xã hội tốt đẹp hơn và đầy tình thương cho tất cả mọi người.",
-            "content2": "Hãy tham gia chung tay đóng góp và hỗ trợ với bọn mình nhé!"
-        }
-    },
-    "footer": {
-        "title": "Kết nối với chúng tôi!"
-    },
-    "dropdown": {
-        "empty": "Hãy lựa chọn",
-        "nomatch": "Không tìm thấy kết quả",
-        "max": "Đã đạt giới hạn số lượng",
-        "fetchBefore": "Viết để tìm kiếm",
-        "fetchQuery": "Bạn cần ít nhất XXX ký tự để tìm kiếm",
-        "fetchEmpty": "Không có kết quả",
-        "collapsedSelection": "XXX đã chọn",
-        "createRowLabel": "Đã tạo XXX"
+    "about": {
+      "title": "Hiệp sĩ gà, chúng tôi mang đến hy vọng!",
+      "content1": "\"Hiệp sĩ Gà\" là một nhóm tình nguyện sôi nổi, tận dụng năng lượng và nhiệt huyết của tuổi trẻ để tạo ra tác động tích cực trong cộng đồng. Mục đích chung của nhóm là thu hút các tình nguyện viên trẻ tham gia vào nhiều hoạt động, từ dọn dẹp môi trường và tổ chức các buổi hội thảo giáo dục đến hỗ trợ các tổ chức từ thiện địa phương và tổ chức các sự kiện cộng đồng. Sứ mệnh của nhóm là trao quyền cho thanh niên trở thành những “hiệp sĩ” năng động, có trách nhiệm, đồng thời giải quyết thách thức bằng sự sáng tạo và tận tâm. Thông qua tinh thần đồng đội và tầm nhìn chung, Hiệp sĩ Gà nỗ lực tạo ra một xã hội tốt đẹp hơn và đầy tình thương cho tất cả mọi người.",
+      "content2": "Hãy tham gia chung tay đóng góp và hỗ trợ với bọn mình nhé!"
     }
+  },
+  "footer": {
+    "title": "Kết nối với chúng tôi!"
+  },
+  "story": [
+    "Hiệp sĩ Gà là gì? Và tại sao lại là con gà?\n\nTừ năm 2019, một server Discord được lập ra để chơi Among Us và nhiều game khác giữa những người bạn từ mọi miền và tạo ra nhiều sự kiện chứa đầy ký ức, đẹp có buồn có. Server đấy mang tên Noobs, với ý nghĩa “Every champion was once a beginner” (Mỗi nhà vô địch đều từng là người mới bắt đầu). Khái niệm của server từng là học đường, lưu lại những khoảnh khắc talkshow hay cuộc chơi game đêm khuya của anh em gần xa trong nước lẫn ngoài nước. Ngắn gọn thế thôi, chứ Noobs tính 2024 cũng được 5 tuổi và hành trình gắn kết mọi người cũng không hề dễ tí nào.",
+    "Noobs không được dựng lên từ một người, mà là nhờ mỗi cá thế đóng góp tạo nên một cộng đồng mở rộng toàn cầu. Tới đây bạn thấy có điểm tương đồng với Hiệp sĩ Gà không. Thế mình ví dụ nhé, gà không đẻ một quả trứng, mà là nhiều quả. Gà không đi một mình, mà là theo bầy. Thế tại sao là con gà mà không là con khác à? Có lẽ người viết câu chuyện này thích gà đấy. Đùa thôi.",
+    "Noob dịch ra từ tiếng Anh là gà mờ, và là một cách để nhấn mạnh rằng mọi người đều bắt đầu từ một vị trí không biết gì và cần phải học hỏi và trải nghiệm để trở thành những người giỏi. Nhắc nhở về tầm quan trọng của sự khởi đầu khiêm tốn, sự đồng cảm, và quá trình học tập.",
+    "Server Noobs cũng như Hiệp sĩ Gà nói về hành trình của các cá thể từ người mới bắt đầu đến việc đạt được thành thạo hoặc thành công, có thể là một lĩnh vực nào đó hay trong cuộc sống. Chắc là người viết muốn chia sẽ khái niệm này để truyền cảm hứng và động viên, khuyến khích mọi người kiên trì vượt qua thử thách, học hỏi từ những thất bại và tiếp tục cải thiện theo thời gian đó mà.",
+    "Đã là gà mà còn là hiệp sĩ? Nghe có vẻ lạ, thế nhưng con người có cần mặc áo giáp mới trở thành hiệp sĩ không?\n\nNhìn về định nghĩa của 1 người \"hiệp sĩ\" thời xưa - một nhà anh hùng mặc áo giáp cưỡi ngựa, một người có phẩm chất tinh thần và đạo đức cao được biểu hiện qua việc dũng mãnh, tinh thần nghĩa hiệp, lòng can đảm trong việc bảo vệ và giúp đỡ những người yếu đuối hoặc bảo vệ các giá trị và lý tưởng.",
+    "Tuy nhiên đây là thực tế, chúng ta đều là những cá thể sống trong cuộc sống bình thường. Không có sức mạnh? Không có áo giáp? Không có áo choàng? Chẳng sao cả! Không chỉ riêng Việt Nam, mà toàn cầu nói chung, rất nhiều người tốt làm những việc thiện và trao đi sự tích cực đến cộng đồng. Nhiều người còn xung phong chung tay chống dịch, chống đói, hoặc từ thiện xã hội mà không cần trang bị cho mình bộ áo giáp hay phi ngựa đến địa điểm nhất định. Nhiều người còn lập nhóm đứng ra bảo vệ dân vào ban đêm. Bạn có nghĩ họ có xứng đáng với danh hiệu hiệp sĩ? Chỉ cần có phẩm chất, ý chí tinh thần, và đạo đức cao để giúp đỡ và làm việc thiện, đó mới được coi là sự cao quý và lòng dũng cảm trong con người. Và đó mới chính là định nghĩa đúng của một người hiệp sĩ."
+  ],
+  "storyTitle": "Chúng tôi chỉ muốn mang đến niềm vui!"
 }

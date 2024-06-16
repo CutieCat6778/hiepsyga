@@ -8,7 +8,7 @@
         isLocaleLoaded,
         changeLocale,
         json,
-        locale
+        locale,
     } from "$lib/i18n";
     import DropdownMenu from "$lib/components/DropdownMenu.svelte";
     import { turnOffNav } from "$lib";
@@ -83,17 +83,13 @@
             <a href="/#about" class="font-semibold uppercase md:block hidden"
                 >{$json("navigation.about.0")}</a
             >
-            <a href="/projects" class="font-semibold uppercase md:block hidden"
+            <a href="/blog" class="font-semibold uppercase md:block hidden"
                 >{$_("navigation.about.1")}</a
             >
-            <a href="/#about" class="font-semibold uppercase md:block hidden"
+            <a href="/projects" class="font-semibold uppercase md:block hidden"
                 >{$_("navigation.about.2")}</a
             >
-            <DropdownMenu
-                style="max-w-[10vw] bg-black/[0]"
-                id={$story[0]}
-                options={$story}
-            />
+            <DropdownMenu options={$story} paths={["story"]} />
             <LanguageSwitch
                 value={$locale}
                 on:locale-changed={(e) => {
@@ -103,10 +99,12 @@
             />
         </ul>
     </nav>
-    <slot />
+    <div class="min-h-screen flex justify-center flex-col items-center">
+        <slot />
+    </div>
     <footer
         id="contact"
-        class="-z-5 min-h-[10vh] lg:px-10 px-3 flex justify-between bg-primary text-white items-center"
+        class="-z-5 min-h-[14vh] lg:px-10 px-3 flex justify-between bg-primary text-white items-center"
     >
         <h1 class="text-4xl font-bold hidden lg:block">{$_("footer.title")}</h1>
         <div
@@ -122,7 +120,7 @@
     </footer>
     <img
         class="-z-10 select-none w-full h-screen fixed top-0 bottom-0 left-0 right-0"
-        src="background_old.png"
+        src="/background_old.png"
         alt="Background"
     />
     <img

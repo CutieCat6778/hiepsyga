@@ -1,27 +1,38 @@
 {
-    "loading": "Loading...",
-    "title": {
-        "title": "Noob Knights",
-        "subtitle": "group"
+  "loading": "Loading...",
+  "title": {
+    "title": "Noob Knights",
+    "subtitle": "group"
+  },
+  "notfound": "Page not found!",
+  "navigation": {
+    "about": ["About us", "Projects", "Presentation"],
+    "storyTitle": "Informations",
+    "story": ["Story"],
+    "join": "Join us"
+  },
+  "landing": {
+    "hero": {
+      "title": "Join us to change the future!",
+      "subtitle": "We empower youth to become dynamic, responsible \"knights\" who address challenges with creativity, dedication and a commitment to excellence. Prepare them to lead and inspire positive change in the world.",
+      "button": "Register"
     },
-    "navigation": {
-        "about": ["About Us"],
-        "contact": "Contact",
-        "join": "Join Us"
-    },
-    "landing": {
-        "hero": {
-            "title": "Join us to change the future!",
-            "subtitle": "We empower youth to become dynamic, responsible \"knights\" who address challenges with creativity, dedication and a commitment to excellence. Prepare them to lead and inspire positive change in the world.",
-            "button": "Register"
-        },
-        "about": {
-            "title": "Noob Knights, We Bring Hopes!",
-            "content1": "\"Chicken Knight\" is a vibrant volunteer group that harnesses the energy and enthusiasm of youth to create a positive impact in the community. The group's overall aim is to engage young volunteers in a variety of activities, from environmental cleanups and educational workshops to supporting local charities and organizing community events. The group's mission is to empower youth to become active, responsible "knights," addressing challenges with creativity and dedication. Through teamwork and a shared vision, Chicken Knights strive to create a better and compassionate society for all.",
-            "content2": "Join us in contributing and supporting our cause!"
-        }
-    },
-    "footer": {
-        "title": "Connect with us!"
+    "about": {
+      "title": "Noob Knights, We Bring Hopes!",
+      "content1": "\"Chicken Knight\" is a vibrant volunteer group that harnesses the energy and enthusiasm of youth to create a positive impact in the community. The group's overall aim is to engage young volunteers in a variety of activities, from environmental cleanups and educational workshops to supporting local charities and organizing community events. The group's mission is to empower youth to become active, responsible \"knights,\" addressing challenges with creativity and dedication. Throug teamwork and a shared vision, Chicken Knights strive to create a better and compassionate society for all.",
+      "content2": "Join us in contributing and supporting our cause!"
     }
+  },
+  "footer": {
+    "title": "Connect with us!"
+  },
+  "story": [
+    "What is a Chicken Knight? And why a chicken?\n\nSince 2019, a Discord server was created for playing Among Us and other games among friends from various places, creating many events full of memories, both happy and sad. That server is called Noobs, with the meaning “Every champion was once a beginner.” The concept of the server was like a school, recording moments of talk shows or late-night gaming sessions of friends from near and far, both within and outside the country. To put it briefly, Noobs will be 5 years old in 2024, and the journey of connecting everyone has not been easy at all.",
+    "Noobs was not built by one person but by each individual contributing to create a globally expanding community. Do you see any similarities with the Chicken Knight now? Let me give you an example, a chicken does not lay one egg but many. A chicken does not go alone but in a flock. So why a chicken and not another animal? Maybe the person writing this story likes chickens. Just kidding.",
+    "Noob translates from English to mean novice, and it is a way to emphasize that everyone starts from a position of knowing nothing and needs to learn and experience to become proficient. It serves as a reminder of the importance of humble beginnings, empathy, and the learning process.",
+    "The Noobs server, like the Chicken Knight, talks about the journey of individuals from beginners to achieving proficiency or success, whether in a certain field or in life. Perhaps the writer wants to share this concept to inspire and encourage everyone to persevere through challenges, learn from failures, and keep improving over time.",
+    "A chicken and also a knight? It sounds strange, but does a person need to wear armor to become a knight?\n\nLooking at the definition of a 'knight' in the old days - a hero in armor riding a horse, a person with high spiritual and moral qualities demonstrated through bravery, chivalry, and courage in protecting and helping the weak or defending values and ideals.",
+    "However, in reality, we are all individuals living ordinary lives. No strength? No armor? No cape? No problem! Not just in Vietnam, but globally, many good people do good deeds and spread positivity to the community. Many even volunteer to fight epidemics, hunger, or social charity without equipping themselves with armor or riding horses to a specific location. Many form groups to protect civilians at night. Do you think they deserve the title of knight? As long as there are qualities, spirit, and high moral character to help and do good deeds, that is what is considered nobility and courage in a person. And that is the true definition of a knight."
+  ],
+  "storyTitle": "We just want to bring joy!"
 }
